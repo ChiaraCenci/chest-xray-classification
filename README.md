@@ -102,23 +102,7 @@ Normal has the lowest pooled recall, while Viral Pneumonia has the highest. Thes
 
 Rows represent true classes and columns predicted classes. This figure was extracted from the saved original output, without rerunning training. Its original title contains Italian text.
 
-### Training curves
 
-Training and validation accuracy and loss from the final fits are shown below. Validation fluctuations should be interpreted alongside early stopping and the restricted size of each validation subset.
-
-**Outer fold A**
-
-![Historical accuracy and loss curves for fold A](source_cell_22_output_1.png)
-
-**Outer fold B**
-
-![Historical accuracy and loss curves for fold B](source_cell_22_output_2.png)
-
-**Outer fold C**
-
-![Historical accuracy and loss curves for fold C](source_cell_22_output_3.png)
-
-The [notebook](Chest_Xray_Classification.ipynb) includes additional fold-level confusion matrices, training logs and per-class summaries. Figure origin is recorded in [PROVENANCE.md](PROVENANCE.md).
 
 ## Repository contents
 
